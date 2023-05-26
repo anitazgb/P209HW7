@@ -1,0 +1,115 @@
+/* Set a background color for the body, and allow to scroll a page */
+body {
+  background-color: #f2f2f2;
+  overflow: auto;
+}
+
+/* Style the image on Home page */
+img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.newFont {
+  text-align: center;
+}
+
+/* Style the header */
+[data-role="header"] {
+  background-color: #744444;
+  color: white;
+  padding: 10px;
+}
+
+/* Style the footer */
+[data-role="footer"] {
+  background-color: #744444;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the navbar */
+[data-role="navbar"] {
+  background-color: #eee;
+  border-radius: 0;
+  border: none;
+}
+
+/* Style the nav menu buttons */
+[data-role="navbar"] a {
+  border-right: 1px solid #744444;
+  padding: 10px 15px;
+}
+
+[data-role="navbar"] a:last-child {
+  border-right: none;
+}
+
+/* Style the active navbar item */
+[data-role="navbar"] a.ui-btn-active {
+  background-color: #333;
+  color: white;
+}
+
+/* Style the page content */
+[data-role="content"] {
+  padding: 10px;
+}
+
+/* Style the input fields */
+.ui-input-text {
+  margin-bottom: 10px;
+}
+
+/* Style the buttons */
+.ui-btn {
+  background-color: #333;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+/* Style the homepage top content */
+[data-role="content"][data-theme="b"] {
+  background-color: rgb(240, 228, 161);
+  color: brown;
+  text-align: center;
+}
+
+/* Style the trailer button */
+#trailer {
+  background-color: #cc0000;
+}
+
+/* Style the Action dropdown */
+#select-genre {
+  padding: 10px;
+}
+
+/* Style the book details page */
+#oneTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#oneYear {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#oneGenre {
+  font-size: 16px;
+}
+
+#oneAuthor {
+  font-size: 16px;
+}
+
+#oneCountry {
+  font-size: 16px;
+}
